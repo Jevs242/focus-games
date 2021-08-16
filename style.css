@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(to top, #363436 0%, #808080 100%);
+    padding: 13px;
+    font-family:"Segoe UI";
+}
+h1{
+    font-size : 34px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 19px;
+}
+p {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5 , main , #Informacion , footer{
+    text-align: center;
+} 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px;
+    background-color: #e4175d;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+}
+ul , ol{
+    margin-right: 40px;
+    font-size: 18px;
+}
+main {
+    margin-top : 25px;
+    padding : 5px;
+}
+footer {
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+h1 span{
+    font-size: 18px;
+}
+#Informacion {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: -20px;
+}
+#Informacion h2{
+    padding-top : 200px;
+}
+#Pagina {
+    background-color: white;
+    border-radius: 10px;
+}
+#Boton {
+    background-color: #e4175d;
+    padding: 10px;
+    margin-left: 840px;
+    margin-right: 840px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-align: center;
+}
