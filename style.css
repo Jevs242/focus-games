@@ -66,6 +66,18 @@ h1 span{
     border-radius: 10px;
 }
 #Boton {
+
+  padding: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  #Boton {
     background-color: #e4175d;
     padding: 10px;
     margin-left: 30%;
@@ -74,4 +86,5 @@ h1 span{
     text-transform: uppercase;
     border-radius: 50px;
     text-align: center;
+  }
 }
