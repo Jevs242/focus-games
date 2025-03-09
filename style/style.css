@@ -52,7 +52,7 @@ h1 span{
     font-size: 18px;
 }
 #Informacion {
-    background-image: url(fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
